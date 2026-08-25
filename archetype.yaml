@@ -1,0 +1,14 @@
+---
+description: "TypeScript Kafka Messaging — kafkajs producer plugin for Fastify pnpm services"
+summary: >
+  Generates src/plugins/messaging.ts with kafkajs Producer as a Fastify plugin
+  for any TypeScript pnpm service archetype. Consumed as a library by service archetypes.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "typescript", "messaging", "kafka", "kafkajs"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
